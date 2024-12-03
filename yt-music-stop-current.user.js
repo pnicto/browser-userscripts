@@ -19,7 +19,7 @@ function timeToSeconds(time) {
 
   let btn = document.createElement("button");
 
-  btn.innerHTML = "Stop after current song";
+  btn.textContent = "Stop after current song";
   btn.id = "stop-after-current-song";
 
   btn.style.position = "fixed";
