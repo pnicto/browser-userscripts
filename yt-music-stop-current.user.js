@@ -39,6 +39,7 @@ function timeToSeconds(time) {
     const currentSeconds = timeToSeconds(current);
     const totalSeconds = timeToSeconds(total);
     const left = totalSeconds - currentSeconds;
+    console.log("Added timeout for", left, "seconds");
 
     setTimeout(
       function () {
